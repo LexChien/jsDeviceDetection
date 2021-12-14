@@ -353,6 +353,7 @@ $(function() {
       //alert(url);
 
       /// check for http
+      //  check
       if ($("#getURL").val().match(/^http/)) {
             $('#displayframe').attr('src', url);
         }
